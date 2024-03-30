@@ -1,0 +1,97 @@
+body {
+    background-image:url(../Imagenes/bg.svg);
+    background-repeat: no-repeat;
+}
+
+
+
+
+.Informativo{
+    
+    width: 100%;
+    margin-right: 5%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  
+
+}
+.name{
+    font-size: 80px;
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+}
+.Info{
+    
+    background-color: #65cb6c;
+    width: 30%;
+    height: 600px;
+    margin-right: 60px;
+    border-radius: 10px;
+}
+
+.contenedor{
+    margin-left: 20px;
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+}
+.hora{
+    margin-left: 10px;
+    background: #c5ffc9;
+    border-radius: 20px;
+    width: 90%;
+    
+    display: flex;
+  
+}
+.icon{
+   margin: 5px;
+}
+.text{
+    margin: 5px;
+}
+
+.atencion{
+    margin-left: 10px;
+    margin-top: 5px;
+    background: #c5ffc9;
+    border-radius: 20px;
+    width: 90%;
+display: flex;
+}
+
+.foot{ 
+    
+    display: flex; /* hace flexible la clase foot*/
+    justify-content: space-between; /* da el mayor espacio posible entre los items */
+    color: white;
+  }
+
+.Redes {
+    font-size: 30px;  /* tamaña de los iconos en el footer*/
+    
+}
+
+.icono {
+    color: white;
+    }
+    
+.titulofoot{
+        
+    color: white;
+}
+    
+.conct {
+    color: white;
+}
+
+.texto {
+
+    font-size: 18px;
+}

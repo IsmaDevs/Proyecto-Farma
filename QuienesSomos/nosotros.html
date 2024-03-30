@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quienes Somos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="../QuienesSomos/App.js" defer></script>
+    <script src="https://kit.fontawesome.com/01886e2c49.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+</head>
+<body>
+
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-dark bg-gradient">
+            <div class="container-fluid">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                      <a class="navbar-brand text-white" href="../Home/index.html">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2937/2937358.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                        Farmacia Floresta</a>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="texto navbar-nav ">
+                  <a class="nav-link active text-white" aria-current="page" href="../Client/client.html"><i class="fa-solid fa-users"></i> Clientes</a>
+                  <a class="nav-link active text-white" href="../Products/productos.html"><i class="fa-solid fa-boxes-stacked"></i> Productos</a>
+                  <a class="nav-link active text-white" href="../Ventas/ventas.html"><i class="fa-solid fa-cart-shopping"></i> Ventas</a>
+                  <a class="nav-link active text-danger" href="../Login/index.html"><i class="fa-solid fa-door-open"></i> Salir</a>
+                </div>
+              </div>
+            </div>
+            </div>
+          </nav>
+
+
+          <br>
+          <br>
+
+    </header>
+   
+
+    <main>
+            <br>
+            <h1 class="text-center text-warning">Quienes Somos</h1>
+            <br>
+            <div class="modal1 text-center ">
+             
+            <div class="modal fade" id="exampleModalLive" tabindex="-1" aria-labelledby="exampleModalLiveLabel" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLiveLabel">Título modal</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="" class="text-center">
+                
+
+                                <label for="">Nombre</label>
+                                <input type="text" id="nombre" class="input" placeholder="Ingresa el nombre">
+                                <br><br>
+                                <label for="">Edad</label>
+                                <input type="number" id="edad" class="input" placeholder="Ingresa la edad">
+                                <br><br>
+                                <button type="button" id="btnAgregar" class="btn btn-primary">Agregar</button>
+                                <button type="button" id="btnActualizar" class="btn btn-warning">Actualizar</button>
+                
+                                <br>
+                                <br>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <!--<button type="button" class="btn btn-primary">Guardar cambios</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+            <!--  -->
+            <div class="tabla">
+            <table class="table table-hover table-striped table-secondary">
+                <thead>
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Nombre y Apellido</th>
+                    <th scope="col">Edad</th>
+                    <th scope="col">Legajo</th>
+                    <th scope="col">Imagen</th>
+                    <th scope="col">Acciones</th>
+                  </tr>
+                </thead>
+                <tbody id="Nosotros">
+                </tbody>
+              </table>
+            </div>
+            <br>
+
+            <div id="Nosotros2" class="card"></div>
+    </main>
+
+    <footer>
+        <br>
+        <div class="footer">
+            <!--div contenedor del footer-->
+            <div class="foot row p-3 bg-dark bg-gradient text-white">
+                <!--p es el padding y bg color de fondo y text color del texto-->
+                <div class="Redes col-xs-12 col-md-6 col-lg-3">
+                    <!--xs para dispositivos pequeños 12 columnas- md medianos 6 columnas y lg 3 columnas grandes-->
+                    <p class="titulofoot">Redes Sociales</p> <!--titulo-->
+                    <div class="redes1">
+                        <a href="https://web.telegram.org/a/"> <i
+                                class=" icono fa-brands fa-telegram"></i></a><!--esta etiqueta sirve como hipervinculo para ir a otra direccion-->
+                        <a href="https://www.facebook.com/luciano.gatti.73"><i
+                                class="icono fa-brands fa-facebook"></i></a><!--icono de las redes sociales con sus direcciones-->
+                        <a href="https://twitter.com/cordobes127"><i
+                                class="icono fa-brands fa-x-twitter"></i></a><!--icono de las redes sociales con sus direcciones-->
+                        <a href="https://api.whatsapp.com/send/?phone=3814727974"> <i class="icono fa-brands fa-whatsapp"></i>
+                        </a><!--icono de las redes sociales con sus direcciones-->
+                    </div>
+                </div>
+  
+                <div class="contac col-xs-12 col-md-6 col-lg-3">
+                    <!--xs para dispositivos pequeños 12 columnas- md medianos 6 columnas y lg 3 columnas grandes-->
+                    <p class="titulofoot"> <strong> Contactos </strong></p> <!--un pequeño titulo-->
+                    <div class="conct celular">
+                        <strong>Cel: 3814727974</strong>
+                    </div><!--datos -->
+  
+                    <div class="conct mail">
+                        <strong>farmaciafloresta@gmail.com</strong>
+                    </div><!--datos -->
+  
+                </div>
+  
+                <div class="maps2 col-xs-12 col-md-6 col-lg-3">
+                    <!--xs para dispositivos pequeños 12 columnas- md medianos 6 columnas y lg 3 columnas grandes-->
+                    <p class="titulofoot"> <strong> Ubicacion </strong></p> <!--un pequeño titulo-->
+                    <div class="map">
+  
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1780.2151179717766!2d-65.23363682546731!3d-26.82626489999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c5e0678a035%3A0xfd02316f84a521d9!2sAv.%20Col%C3%B3n%2C%20T4000%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1694159673364!5m2!1ses!2sar"
+                            width="250" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <!--etiqueta iframe permite visualizar un documento html-->
+                        <!-- la direccion del google map - con width y height le doy el tamaño requerido-->
+                    </div>
+  
+                </div>
+  
+            </div>
+  
+    </footer>
+</body>
+</html>

@@ -1,0 +1,178 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "Nombre": "Ismael",
+      "Dni": 45330824,
+      "Domicilio": "Pueyrredon 210",
+      "Email": "ismaeldev@gmail.com",
+      "Pass": "123"
+    },
+    {
+      "id": 2,
+      "Nombre": "Luciano",
+      "Dni": "25530950",
+      "Domicilio": "Colon 100",
+      "Email": "lugatti@gmail.com",
+      "pass": "123"
+    },
+    {
+      "id": 3,
+      "Nombre": "Rodrigo",
+      "Dni": 25430920,
+      "Domicilio": "Israel 300",
+      "Email": "rodriesper@gmail.com",
+      "Pass": "123"
+    },
+    {
+      "id": 4,
+      "Nombre": "Matias",
+      "Dni": 25110754,
+      "Domicilio": "24 de septiembre",
+      "Email": "matiaschoc@gmail.com",
+      "Pass": "123"
+    },
+    {
+      "id": 5,
+      "Nombre": "Adrian",
+      "Dni": "45220110",
+      "Domicilio": "Los Nogales casa 10",
+      "Email": "adriangonz@gmail.com",
+      "pass": "123"
+    },
+    {
+      "id": 6,
+      "Nombre": "Raul",
+      "Dni": "254402526",
+      "Domicilio": "Uruguay 400",
+      "Email": "rauldev@gmail.com",
+      "Pass": "123"
+    }
+  ],
+  "integrantes": [
+    {
+      "id": 1,
+      "Nombre": "Chavez Ismael",
+      "Edad": "19",
+      "Imagen": "../Nosotros Img/isma.jpg"
+    },
+    {
+      "id": 2,
+      "Nombre": "Chocobar Matias",
+      "Edad": "39",
+      "Imagen": "../Nosotros Img/matias.jpg"
+    },
+    {
+      "id": 3,
+      "Nombre": "Esper Rodrigo",
+      "Edad": "29",
+      "Imagen": "../Nosotros Img/esper.jpg"
+    },
+    {
+      "id": 4,
+      "Nombre": "Gatti Luciano",
+      "Edad": "34",
+      "Imagen": "../Nosotros Img/gatti.jpg"
+    },
+    {
+      "id": 5,
+      "Nombre": "Gonzales Adrian",
+      "Edad": "19",
+      "Imagen": "../Nosotros Img/adrian.png"
+    }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "Nombre": "IBUPROFENO COMPR 600MG",
+      "Precio": 90,
+      "Tipo": "ANALGESICO"
+    },
+    {
+      "id": 2,
+      "Nombre": "PARACETAMOL",
+      "Precio": 180,
+      "Tipo": "ANALGESICO"
+    },
+    {
+      "Nombre": "CURINFLAN AP",
+      "Precio": "140",
+      "Tipo": "ANALGESICO",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "Nombre": "DEXAMETASONA COMP",
+      "Precio": 100,
+      "Tipo": "CORTICOIDES"
+    },
+    {
+      "id": 5,
+      "Nombre": "LORATADINA COMP",
+      "Precio": 80,
+      "Tipo": "ANTIALERGICOS"
+    },
+    {
+      "id": 6,
+      "Nombre": "AMOXICILINA 1G",
+      "Precio": 270,
+      "Tipo": "ANTIBIOTICOS"
+    },
+    {
+      "id": 7,
+      "Nombre": "ANALAPRIL 10MG",
+      "Precio": 90,
+      "Tipo": "HIPERTENCION"
+    },
+    {
+      "id": 8,
+      "Nombre": "FLUCONAZOL 150MG",
+      "Precio": 200,
+      "Tipo": "HIPERTENCION"
+    },
+    {
+      "id": 9,
+      "Nombre": "DIPIRONA 100ML",
+      "Precio": 680,
+      "Tipo": "SUSPENSION"
+    },
+    {
+      "id": 10,
+      "Nombre": "CREMA MICONAZOL MACRIL",
+      "Precio": 1200,
+      "Tipo": "HIPERTENCION"
+    },
+    {
+      "Nombre": "Pamper",
+      "Precio": "5000",
+      "Tipo": "LIMPIEZA",
+      "id": 11
+    }
+  ],
+  "ventas": [
+    {
+      "Cliente": "Ismael",
+      "Producto": "PARACETAMOL",
+      "Precio": "100",
+      "Cantidad": "2",
+      "Total": 200,
+      "id": 2
+    },
+    {
+      "Cliente": "Luciano Gatti",
+      "Producto": "AMOXICILINA 1G",
+      "Precio": "100",
+      "Cantidad": "3",
+      "Total": 300,
+      "id": 3
+    },
+    {
+      "Cliente": "Matias Chocobar",
+      "Producto": "CREMA MICONAZOL MACRIL",
+      "Precio": "500",
+      "Cantidad": "2",
+      "Total": 1000,
+      "id": 4
+    }
+  ]
+}
