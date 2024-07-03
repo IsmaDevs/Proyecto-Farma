@@ -1,6 +1,6 @@
 # PROYECTO FARMACEUTICO - REGISTRO DE PRODUCTOS 💊
 
-Este proyecto fue hecho con **HTML**, **JavaScript** y para darte su estilo único con **CSS3** y se utilizo un poco de **Bootstrap**.
+Este proyecto fue hecho con **HTML**, **JavaScript** y para darle su estilo único con **CSS3** y se utilizo un poco de **Bootstrap**.
  Este dicho proyecto fue realizado con fines de práctica sobre realización de un CRUD, los datos se registran gracias a la utilización de **JSON-SERVER**,
 una fake-api la cual nos permite tomar datos y con ello poder llevar a cabo un CRUD para poder crear, leer, actualizar y eliminar los productos del sitio web.
 
